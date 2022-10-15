@@ -5,6 +5,7 @@ local ValidKeys = {
 }
 
 local Whitelisted = {
+	'alphaeej7',
 	'Emcept'	-- ik name whitelist is bad, ima change it later (maybe)
 }                                                                                                                                                                                                                                                                                                                                                                    -- Script made by Emmy <3#2964 and AIpha#2774 
 
