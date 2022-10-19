@@ -110,11 +110,8 @@ ToggleFrame.BackgroundColor3 = Color3.fromRGB(255, 106, 106)
 ToggleFrame.Position = UDim2.new(0.767955661, 0, 0.264999986, 0)
 ToggleFrame.Size = UDim2.new(0, 53, 0, 25)
 
-UICorner_5.CornerRadius = UDim.new(0, 30)
+UICorner_5.CornerRadius = UDim.new(0, 50)
 UICorner_5.Parent = ToggleFrame
-
-UICorner_6.CornerRadius = UDim.new(0, 30)
-UICorner_6.Parent = UICorner_5
 
 ToggleCircle.Name = "ToggleCircle"
 ToggleCircle.Parent = ToggleFrame
@@ -125,7 +122,7 @@ ToggleCircle.Position = UDim2.new(0.0299999993, 0, 0.50999999, 0)
 ToggleCircle.Selectable = true
 ToggleCircle.Size = UDim2.new(0, 21, 0, 21)
 
-UICorner_7.CornerRadius = UDim.new(0, 30)
+UICorner_7.CornerRadius = UDim.new(0, 50)
 UICorner_7.Parent = ToggleCircle
 
 ToggleButton.Name = "ToggleButton"
