@@ -28,10 +28,10 @@ local credits = Instance.new("TextLabel")
 
 pcall(function()
 ScreenGui.Parent = game.CoreGui
+end)
 if ScreenGui.Parent ~= game.CoreGui then
 	ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
 end
-end)
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 ScreenGui.ResetOnSpawn = false
 
