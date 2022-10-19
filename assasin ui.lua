@@ -197,9 +197,11 @@ game.Players.LocalPlayer.CharacterAdded:connect(function()
 			if on then
 				for i,v in pairs(game.Workspace.EventCurrency:GetDescendants()) do
 					if v:IsA"TouchTransmitter" then
-						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) 
-						task.wait()
-						firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)
+						pcall(function()
+							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 0) 
+							task.wait()
+							firetouchinterest(game.Players.LocalPlayer.Character.HumanoidRootPart, v.Parent, 1)
+						end)
 					end
 				end
 			end
