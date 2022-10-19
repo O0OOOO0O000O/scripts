@@ -977,7 +977,7 @@ loadsc.MouseButton1Click:Connect(function()
 		loadSource()
 	else
 		TextLabelxxd3.TextColor3 = Color3.fromRGB(255, 0, 4)
-		TextLabelxxd3.Text = 'User is not whitelisted!!'
+		TextLabelxxd3.Text = 'User is not whitelisted!'
 		wait(1)
 		TextLabelxxd3.Visible = false
 	end
